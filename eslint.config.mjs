@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Prisma가 자동 생성하는 클라이언트
+    "src/generated/**",
   ]),
 ]);
 
